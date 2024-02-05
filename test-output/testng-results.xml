@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-05T09:00:11 IST" name="Suite" finished-at="2024-02-05T09:01:23 IST" duration-ms="72000">
+    <groups>
+    </groups>
+    <test started-at="2024-02-05T09:00:11 IST" name="Test" finished-at="2024-02-05T09:01:23 IST" duration-ms="72000">
+      <class name="TestScripts.Customer1">
+        <test-method is-config="true" signature="verify_dbconnection()[pri:0, instance:TestScripts.Customer1@5d908d47]" started-at="2024-02-05T09:00:11 IST" name="verify_dbconnection" finished-at="2024-02-05T09:00:11 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_dbconnection -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:TestScripts.Customer1@5d908d47]" started-at="2024-02-05T09:00:11 IST" name="launchbrowser" finished-at="2024-02-05T09:00:30 IST" duration-ms="19530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestScripts.Customer1@5d908d47]" started-at="2024-02-05T09:00:34 IST" name="login" finished-at="2024-02-05T09:00:39 IST" duration-ms="4560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verify_create_customer(java.lang.String,java.lang.String)[pri:0, instance:TestScripts.Customer1@5d908d47]" started-at="2024-02-05T09:00:39 IST" name="verify_create_customer" data-provider="createcustomer" finished-at="2024-02-05T09:01:05 IST" duration-ms="26829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Veeresh122vht]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RFID…..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_create_customer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestScripts.Customer1@5d908d47]" started-at="2024-02-05T09:01:05 IST" name="logout" finished-at="2024-02-05T09:01:06 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestScripts.Customer1@5d908d47]" started-at="2024-02-05T09:01:06 IST" name="login" finished-at="2024-02-05T09:01:10 IST" duration-ms="4217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verify_create_customer(java.lang.String,java.lang.String)[pri:0, instance:TestScripts.Customer1@5d908d47]" started-at="2024-02-05T09:01:10 IST" name="verify_create_customer" data-provider="createcustomer" finished-at="2024-02-05T09:01:22 IST" duration-ms="12036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12Thippesh1bni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RFID…..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_create_customer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestScripts.Customer1@5d908d47]" started-at="2024-02-05T09:01:22 IST" name="logout" finished-at="2024-02-05T09:01:22 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestScripts.Customer1@5d908d47]" started-at="2024-02-05T09:01:22 IST" name="closebrowser" finished-at="2024-02-05T09:01:23 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="close_dbconnection()[pri:0, instance:TestScripts.Customer1@5d908d47]" started-at="2024-02-05T09:01:23 IST" name="close_dbconnection" finished-at="2024-02-05T09:01:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_dbconnection -->
+      </class> <!-- TestScripts.Customer1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
